@@ -31,10 +31,11 @@
 
   <!-- Left -->
   <div class="banner-left space-y-[30px]">
-    <h2 class="text-[80px] font-bold">
-      It's good <br> tea time at The <br> Tea House
-    </h2>
-
+ <h2 class="text-[60px] 
+           lg:text-[80px] 
+           font-bold">
+  It's good <br> tea time at The <br> Tea House
+</h2>
     <p>
       Lorem ipsum dolor sit amet consectetur <br>
       adipisicing elit. Magni, rerum!
@@ -230,7 +231,7 @@ Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque asperiores magni
 </section>
 
  <!-- footer -->
-<section class="bg-[#ffefe9]  pb-16">
+<!-- <section class="bg-[#ffefe9]  pb-16">
   <div class="footer-top flex justify-between mx-[130px]  p-16">
     <img src="./images/cup.png" alt="">
     <div class="grid grid-cols-2 gap-[30px] items-center">
@@ -242,7 +243,7 @@ Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque asperiores magni
     </button></div>
   </div>
 
-<div class="grid grid-cols-[0.9fr_0.9fr_0.9fr_1.3fr] ml-[194px] mr-[144px]">
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-[0.9fr_0.9fr_0.9fr_1.3fr] ml-[50px] lg:ml-[194px] mr-[50px] lg:mr-[144px]">
 
 <div class="space-y-3.5">
   <h2 class="font-semibold text-xl">Quick Links</h2>
@@ -266,14 +267,14 @@ Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque asperiores magni
   <h3 class="text-md text-gray-500">Privacy Policy</h3>
 </div>
 
-<div class="space-y-3.5">
+ <div class="space-y-3.5">
 <h2 class="font-semibold text-2xl">Subscribe to our <br>  newsletter </h2>
-<div class="flex justify-center gap-2.5"><input type="text" name="" placeholder="Email Adress" id="" class="border-b-2 pb-4 w-[320px]">
+<div class="flex justify-center gap-2.5"><input type="text" name="" placeholder="Email Adress" id="" class="border-b-2 pb-4 w-[20rem]">
 <button class="px-3 py-2.5 rounded-full text-white font-semibold 
-             bg-linear-to-r from-[#ff8938] to-[#ff0000]"><i class="fa-solid fa-arrow-right"></i></button></div>
+             bg-linear-to-r from-[#ff8938] to-[#ff0000]"><i class="fa-solid fa-arrow-right"></i></button>
   
-  
-  <div class="my-10">
+   </div> 
+  <div class="my-5 lg:my-10">
   <span><i class="fa-brands fa-facebook-f text-gray-500"></i></span>
   <span class="mx-4"><i class="fa-brands fa-twitter text-gray-500"></i></span>
   <span><i class="fa-brands fa-square-instagram text-gray-500"></i></span>
@@ -286,6 +287,97 @@ Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque asperiores magni
 </div>
 
 <footer class="text-sm text-gray-600 w-fit mx-auto py-6">© 2027 UIDesign.to - All rights reserved.</footer>
+
+</section> -->
+
+
+<section class="bg-[#ffefe9] pb-16">
+
+  <!-- Top CTA -->
+  <div class="container mx-auto px-6 lg:px-20 py-12">
+    <div class="flex flex-col md:flex-row justify-between items-center gap-6">
+
+      <img src="./images/cup.png" alt="" class="w-20 md:w-auto">
+
+      <div class="flex flex-col sm:flex-row items-center gap-4">
+        <p class="text-center sm:text-left">Ready to get started?</p>
+
+        <button
+          class="py-3 px-6 rounded-md text-white font-semibold 
+                 bg-gradient-to-r from-[#ff8938] to-[#ff0000]">
+          Get Started
+        </button>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Footer Grid -->
+  <div class="container mx-auto px-6 lg:px-20">
+
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-[0.9fr_0.9fr_0.9fr_1.3fr] gap-10">
+
+      <!-- Column 1 -->
+      <div class="space-y-4 text-center md:text-left">
+        <h2 class="font-semibold text-xl">Quick Links</h2>
+        <p class="text-gray-500">Home</p>
+        <p class="text-gray-500">About Us</p>
+        <p class="text-gray-500">Insurance</p>
+        <p class="text-gray-500">Privacy Policy</p>
+      </div>
+
+      <!-- Column 2 -->
+      <div class="space-y-4 text-center md:text-left">
+        <h2 class="font-semibold text-xl">Our Service</h2>
+        <p class="text-gray-500">Life Insurance</p>
+        <p class="text-gray-500">Car Insurance</p>
+        <p class="text-gray-500">Health Insurance</p>
+        <p class="text-gray-500">House Insurance</p>
+      </div>
+
+      <!-- Column 3 -->
+      <div class="space-y-4 text-center md:text-left">
+        <h2 class="font-semibold text-xl">Help</h2>
+        <p class="text-gray-500">FAQs</p>
+        <p class="text-gray-500">Contact Us</p>
+      </div>
+
+      <!-- Newsletter Column -->
+      <div class="space-y-6">
+        <h2 class="font-semibold text-2xl">
+          Subscribe to our <br class="hidden sm:block"> newsletter
+        </h2>
+
+        <div class="flex items-center gap-3">
+          <input
+            type="text"
+            placeholder="Email Address"
+            class="border-b-2 bg-transparent pb-3 w-full outline-none"
+          >
+
+          <button
+            class=" px-2 md:px-4 py:1.5 md:py-3 rounded-full text-white font-semibold 
+                   bg-gradient-to-r from-[#ff8938] to-[#ff0000]">
+            <i class="fa-solid fa-arrow-right"></i>
+          </button>
+        </div>
+
+        <div class="flex gap-6 text-gray-500 text-lg">
+          <i class="fa-brands fa-facebook-f"></i>
+          <i class="fa-brands fa-twitter"></i>
+          <i class="fa-brands fa-square-instagram"></i>
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+  <!-- Bottom Footer -->
+  <footer class="text-center text-sm text-gray-600 mt-12">
+    © 2027 UIDesign.to - All rights reserved.
+  </footer>
 
 </section>
 
